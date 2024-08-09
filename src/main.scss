@@ -1,25 +1,49 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "./components/Button/style.scss";
+@import "./components/InputField/style.scss";
 
-.primary-button {
-    background-color: #162d3a;
-    color: white;
-    border-radius: 10px;
-    height: 55px;
+// .login-component {
+//     width: 400px;
+// }
+a {
+    text-decoration: none;
 }
-.primary-button:hover {
-    background-color: #28485a;
-    color: white;
+.image {
+    width: 650px;
+    height: 650px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
 }
-.secondary-button {
-    background-color: #f3f9fa;
-    border-radius: 10px;
-    height: 55px;
-}
-.secondary-button:hover {
-    background-color: #d4dcdd;
-    color: white;
-}
-.form-control {
-    background-color: #f7fbff;
-    border-radius: 10px;
-}
+// .hr-text {
+//     span {
+//         font-family: sans-serif;
+//         margin: 100px auto;
+//         text-align: center;
+//         color: black;
+//         position: relative;
+//     }
+//     span:before {
+//         content: "";
+//         display: block;
+//         width: 150px;
+//         height: 3px;
+//         left: 8px;
+//         top: 50%;
+//         color: black;
+//         position: absolute;
+//     }
+//     span:after {
+//         content: "";
+//         display: block;
+//         width: 150px;
+//         height: 3px;
+//         color: black;
+//         right: 85px;
+//         top: 50%;
+//         position: absolute;
+//     }
+// }
