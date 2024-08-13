@@ -1,7 +1,7 @@
 import LoginForm from "../components/LoginForm";
-import background_image from "./assets/background-image.jpg";
+import background_image from "../assets/background-image.jpg";
 
-function Login() {
+const Login = () => {
   return (
     <div className="container mx-auto">
       <div className="row justify-content-around align-items-center p-5">
@@ -14,6 +14,6 @@ function Login() {
       </div>
     </div>
   );
-}
+};
 
 export default Login;
