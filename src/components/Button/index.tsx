@@ -8,11 +8,10 @@ type ButtonProps = {
   type?: "button" | "submit" | "reset";
 };
 
-function Button({ text, className, icon, onClick }: ButtonProps) {
+const Button = ({ text, className, icon, onClick }: ButtonProps) => {
   const buttonClasses = classNames(
     "btn",
     className,
-    "w-100",
     "align-items-center",
     "d-flex",
     "justify-content-center"
@@ -24,6 +23,6 @@ function Button({ text, className, icon, onClick }: ButtonProps) {
       {text}
     </button>
   );
-}
+};
 
 export default Button;
