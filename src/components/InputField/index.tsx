@@ -10,7 +10,7 @@ type InputFieldProps = {
   error?: boolean;
 };
 
-function InputField(props: InputFieldProps) {
+const InputField = (props: InputFieldProps) => {
   return (
     <div className="mb-3">
       <label className="form-label">{props.label}</label>
@@ -28,6 +28,6 @@ function InputField(props: InputFieldProps) {
       {props.error && <p className="error">{props.errorMessage}</p>}
     </div>
   );
-}
+};
 
 export default InputField;

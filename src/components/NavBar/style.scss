@@ -1,0 +1,22 @@
+.nav-bar {
+    height: 100vh;
+
+    .nav-link {
+        font-size: 16px;
+        color: #868798;
+    }
+    .nav-link:hover {
+        color: #5754fe;
+        background-color: #e8e7ff;
+    }
+    .nav-link.active {
+        color: #5754fe;
+        font-size: 18px;
+        background-color: #e8e7ff;
+    }
+
+    .nav-link.pending {
+        color: #f5f2ff;
+        font-size: 18px;
+    }
+}
